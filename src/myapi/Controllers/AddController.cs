@@ -1,15 +1,22 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using mylib;
-
-namespace src.Controllers
+﻿namespace src.Controllers
 {
+    using System;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;
+    using mylib;
+
+    /// <summary>
+    /// Controller to handle sum operations.
+    /// </summary>
     [Route("api/[controller]")]
     public class AddController : Controller
     {
         private readonly ICalc m_calc;
 
+        /// <summary>
+        /// ctor
+        /// </summary>
+        /// <param name="calc"></param>
         public AddController(ICalc calc)
         {
             m_calc = calc;
