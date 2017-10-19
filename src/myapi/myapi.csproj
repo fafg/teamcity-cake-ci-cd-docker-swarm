@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
-    <DefineConstants>TRACE;DEBUG;RELEASE;NETCOREAPP2_0;</DefineConstants>
+    <DocumentationFile>bin\Release\netcoreapp2.0\myapi.xml</DocumentationFile>
+    <DefineConstants>TRACE;DEBUG;RELEASE;NETCOREAPP2_0</DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Release\netcoreapp2.0\myapi.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.0\myapi.xml</DocumentationFile>
+    <DefineConstants>TRACE;DEBUG;RELEASE;NETCOREAPP2_0</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyLibrary\mylib.csproj" />
+    <ProjectReference Include="..\mylib\mylib.csproj" />
   </ItemGroup>
 
 </Project>

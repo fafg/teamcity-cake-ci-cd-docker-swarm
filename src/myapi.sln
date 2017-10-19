@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{8A85296B
 		..\build\build.sh = ..\build\build.sh
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mylib", "MyLibrary\mylib.csproj", "{20A6C91C-64B3-4219-864A-48BBFD0E491E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mylib", "mylib\mylib.csproj", "{20A6C91C-64B3-4219-864A-48BBFD0E491E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mylib.test", "mylib.test\mylib.test.csproj", "{DBFB892B-BD8D-4A52-9AC7-F3C24E9172E4}"
 EndProject
